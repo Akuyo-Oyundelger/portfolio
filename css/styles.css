@@ -1,0 +1,156 @@
+/* Base styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #ffd6e8;
+  z-index: 1000;
+  padding: 15px 0; /* only vertical padding here */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px; /* horizontal space between edges */
+}
+
+.btn {
+  background: purple;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  white-space: nowrap; /* prevents button text from cutting off */
+}
+
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.logo span {
+  color: purple;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.btn {
+  background: purple;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.section {
+  min-height: 100vh;
+  padding: 100px 40px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* Remove this to prevent overriding image backgrounds */
+  /* background: rgba(255, 255, 255, 0.1); */
+  background: url('../assets/img/bg.png') no-repeat center center;
+  background-size: cover;
+  color: #333;
+}
+
+
+/* Home Page Background + Layout */
+.home-section {
+  background: url('../assets/img/bg.png') ;
+  background-size: cover;
+  color: #333;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px 60px;
+}
+
+.home-content {
+  max-width: 500px;
+}
+
+.home-content h1 {
+  font-size: 48px;
+}
+
+.home-content h2 {
+  font-size: 28px;
+  color: purple;
+}
+
+.home-image img {
+  width: 300px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #f4f4f4;
+  padding: 30px;
+  text-align: center;
+}
+
+#about {
+  background: url('../assets/img/bg.png') no-repeat center center;
+  background-size: cover;
+  color: #333;
+}
+#services {
+  background: url('../assets/img/bg.png') no-repeat center center;
+  background-size: cover;
+  color: #333;
+}
+#portfolio{
+  background: url('../assets/img/bg.png') no-repeat center center;
+  background-size: cover;
+  color: #333;
+}
+#favorites{
+  background: url('../assets/img/bg.png') no-repeat center center;
+  background-size: cover;
+  color: #333;
+}
+
+
